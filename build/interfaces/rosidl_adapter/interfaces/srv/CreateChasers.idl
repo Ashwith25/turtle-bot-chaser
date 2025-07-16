@@ -1,0 +1,15 @@
+// generated from rosidl_adapter/resource/srv.idl.em
+// with input from interfaces/srv/CreateChasers.srv
+// generated code does not contain a copyright notice
+
+
+module interfaces {
+  module srv {
+    struct CreateChasers_Request {
+      int32 count;
+    };
+    struct CreateChasers_Response {
+      sequence<string> turtle_names;
+    };
+  };
+};

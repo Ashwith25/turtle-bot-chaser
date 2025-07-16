@@ -1,0 +1,26 @@
+{
+  "type_description_msg": {
+    "type_description": {
+      "type_name": "turtle_interfaces/srv/CreateChasers_Response",
+      "fields": [
+        {
+          "name": "turtle_names",
+          "type": {
+            "type_id": 161,
+            "capacity": 0,
+            "string_capacity": 0,
+            "nested_type_name": ""
+          },
+          "default_value": ""
+        }
+      ]
+    },
+    "referenced_type_descriptions": []
+  },
+  "type_hashes": [
+    {
+      "type_name": "turtle_interfaces/srv/CreateChasers_Response",
+      "hash_string": "RIHS01_dd4125d0dd2ee096e3d33d8a27b54bdcc190455595f721faf64f784d2beede36"
+    }
+  ]
+}

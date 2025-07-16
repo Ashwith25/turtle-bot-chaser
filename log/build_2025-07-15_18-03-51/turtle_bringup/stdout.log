@@ -1,0 +1,37 @@
+-- The C compiler identification is GNU 13.3.0
+-- The CXX compiler identification is GNU 13.3.0
+-- Detecting C compiler ABI info
+-- Detecting C compiler ABI info - done
+-- Check for working C compiler: /usr/bin/cc - skipped
+-- Detecting C compile features
+-- Detecting C compile features - done
+-- Detecting CXX compiler ABI info
+-- Detecting CXX compiler ABI info - done
+-- Check for working CXX compiler: /usr/bin/c++ - skipped
+-- Detecting CXX compile features
+-- Detecting CXX compile features - done
+-- Found ament_cmake: 2.5.4 (/opt/ros/jazzy/share/ament_cmake/cmake)
+-- Found Python3: /usr/bin/python3 (found version "3.12.3") found components: Interpreter 
+-- Configuring done (0.8s)
+-- Generating done (0.0s)
+-- Build files have been written to: /home/ash/turtle_bot_chaser/build/turtle_bringup
+-- Install configuration: ""
+-- Installing: /home/ash/turtle_bot_chaser/install/turtle_bringup/share/turtle_bringup//launch
+-- Installing: /home/ash/turtle_bot_chaser/install/turtle_bringup/share/turtle_bringup//launch/turtle_catch_em_all.launch.xml
+-- Installing: /home/ash/turtle_bot_chaser/install/turtle_bringup/share/turtle_bringup//config
+-- Installing: /home/ash/turtle_bot_chaser/install/turtle_bringup/share/turtle_bringup//config/turtle_catch_em_all.yaml
+-- Installing: /home/ash/turtle_bot_chaser/install/turtle_bringup/share/ament_index/resource_index/package_run_dependencies/turtle_bringup
+-- Installing: /home/ash/turtle_bot_chaser/install/turtle_bringup/share/ament_index/resource_index/parent_prefix_path/turtle_bringup
+-- Installing: /home/ash/turtle_bot_chaser/install/turtle_bringup/share/turtle_bringup/environment/ament_prefix_path.sh
+-- Installing: /home/ash/turtle_bot_chaser/install/turtle_bringup/share/turtle_bringup/environment/ament_prefix_path.dsv
+-- Installing: /home/ash/turtle_bot_chaser/install/turtle_bringup/share/turtle_bringup/environment/path.sh
+-- Installing: /home/ash/turtle_bot_chaser/install/turtle_bringup/share/turtle_bringup/environment/path.dsv
+-- Installing: /home/ash/turtle_bot_chaser/install/turtle_bringup/share/turtle_bringup/local_setup.bash
+-- Installing: /home/ash/turtle_bot_chaser/install/turtle_bringup/share/turtle_bringup/local_setup.sh
+-- Installing: /home/ash/turtle_bot_chaser/install/turtle_bringup/share/turtle_bringup/local_setup.zsh
+-- Installing: /home/ash/turtle_bot_chaser/install/turtle_bringup/share/turtle_bringup/local_setup.dsv
+-- Installing: /home/ash/turtle_bot_chaser/install/turtle_bringup/share/turtle_bringup/package.dsv
+-- Installing: /home/ash/turtle_bot_chaser/install/turtle_bringup/share/ament_index/resource_index/packages/turtle_bringup
+-- Installing: /home/ash/turtle_bot_chaser/install/turtle_bringup/share/turtle_bringup/cmake/turtle_bringupConfig.cmake
+-- Installing: /home/ash/turtle_bot_chaser/install/turtle_bringup/share/turtle_bringup/cmake/turtle_bringupConfig-version.cmake
+-- Installing: /home/ash/turtle_bot_chaser/install/turtle_bringup/share/turtle_bringup/package.xml

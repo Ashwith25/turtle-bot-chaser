@@ -1,0 +1,26 @@
+{
+  "type_description_msg": {
+    "type_description": {
+      "type_name": "interfaces/srv/CreateChasers_Request",
+      "fields": [
+        {
+          "name": "count",
+          "type": {
+            "type_id": 6,
+            "capacity": 0,
+            "string_capacity": 0,
+            "nested_type_name": ""
+          },
+          "default_value": ""
+        }
+      ]
+    },
+    "referenced_type_descriptions": []
+  },
+  "type_hashes": [
+    {
+      "type_name": "interfaces/srv/CreateChasers_Request",
+      "hash_string": "RIHS01_5e11e7766aeb6dd336e3c546a43ad2a4d5a0bba7c8fa55d49635a765053e7f30"
+    }
+  ]
+}

@@ -1,0 +1,9 @@
+{
+  "package_name": "turtle_interfaces",
+  "non_idl_tuples": [
+    "/home/ash/turtle_bot_chaser/src/turtle_interfaces:msg/Turtle.msg",
+    "/home/ash/turtle_bot_chaser/src/turtle_interfaces:msg/TurtleArray.msg",
+    "/home/ash/turtle_bot_chaser/src/turtle_interfaces:srv/CatchTurtle.srv",
+    "/home/ash/turtle_bot_chaser/src/turtle_interfaces:srv/CreateChasers.srv"
+  ]
+}

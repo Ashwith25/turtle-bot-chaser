@@ -1,0 +1,23 @@
+{
+  "configurations": [
+    {
+      "browse": {
+        "databaseFilename": "${default}",
+        "limitSymbolsToIncludedHeaders": false
+      },
+      "includePath": [
+        "/home/ash/ros2_ws/install/my_robot_interfaces/include/**",
+        "/opt/ros/jazzy/include/**",
+        "/home/ash/turtle_bot_chaser/src/interfaces/include/**",
+        "/home/ash/turtle_bot_chaser/src/turtle_bringup/include/**",
+        "/usr/include/**"
+      ],
+      "name": "ROS",
+      "intelliSenseMode": "gcc-x64",
+      "compilerPath": "/usr/bin/gcc",
+      "cStandard": "gnu11",
+      "cppStandard": "c++14"
+    }
+  ],
+  "version": 4
+}

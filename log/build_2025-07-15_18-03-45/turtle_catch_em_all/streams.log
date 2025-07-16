@@ -1,0 +1,45 @@
+[1.454s] Invoking command in '/home/ash/turtle_bot_chaser/src/turtle_catch_em_all': AMENT_PREFIX_PATH=/home/ash/turtle_bot_chaser/install/interfaces:${AMENT_PREFIX_PATH} CMAKE_PREFIX_PATH=/home/ash/turtle_bot_chaser/install/interfaces:${CMAKE_PREFIX_PATH} DEBUGINFOD_URLS=https://debuginfod.ubuntu.com LD_LIBRARY_PATH=/home/ash/turtle_bot_chaser/install/interfaces/lib:${LD_LIBRARY_PATH} PYTHONPATH=/home/ash/turtle_bot_chaser/build/turtle_catch_em_all/prefix_override:/usr/lib/python3/dist-packages/colcon_core/task/python/colcon_distutils_commands:/home/ash/turtle_bot_chaser/install/turtle_catch_em_all/lib/python3.12/site-packages:/home/ash/turtle_bot_chaser/install/interfaces/lib/python3.12/site-packages:${PYTHONPATH} /usr/bin/python3 -W ignore:setup.py install is deprecated -W ignore:easy_install command is deprecated setup.py egg_info --egg-base ../../build/turtle_catch_em_all build --build-base /home/ash/turtle_bot_chaser/build/turtle_catch_em_all/build install --record /home/ash/turtle_bot_chaser/build/turtle_catch_em_all/install.log --single-version-externally-managed install_data
+[1.637s] running egg_info
+[1.638s] creating ../../build/turtle_catch_em_all/turtle_catch_em_all.egg-info
+[1.653s] writing ../../build/turtle_catch_em_all/turtle_catch_em_all.egg-info/PKG-INFO
+[1.654s] writing dependency_links to ../../build/turtle_catch_em_all/turtle_catch_em_all.egg-info/dependency_links.txt
+[1.655s] writing entry points to ../../build/turtle_catch_em_all/turtle_catch_em_all.egg-info/entry_points.txt
+[1.655s] writing requirements to ../../build/turtle_catch_em_all/turtle_catch_em_all.egg-info/requires.txt
+[1.655s] writing top-level names to ../../build/turtle_catch_em_all/turtle_catch_em_all.egg-info/top_level.txt
+[1.655s] writing manifest file '../../build/turtle_catch_em_all/turtle_catch_em_all.egg-info/SOURCES.txt'
+[1.682s] reading manifest file '../../build/turtle_catch_em_all/turtle_catch_em_all.egg-info/SOURCES.txt'
+[1.684s] writing manifest file '../../build/turtle_catch_em_all/turtle_catch_em_all.egg-info/SOURCES.txt'
+[1.684s] running build
+[1.684s] running build_py
+[1.684s] creating /home/ash/turtle_bot_chaser/build/turtle_catch_em_all/build
+[1.684s] creating /home/ash/turtle_bot_chaser/build/turtle_catch_em_all/build/lib
+[1.684s] creating /home/ash/turtle_bot_chaser/build/turtle_catch_em_all/build/lib/turtle_catch_em_all
+[1.685s] copying turtle_catch_em_all/turtle_controller.py -> /home/ash/turtle_bot_chaser/build/turtle_catch_em_all/build/lib/turtle_catch_em_all
+[1.685s] copying turtle_catch_em_all/turtle_spawner.py -> /home/ash/turtle_bot_chaser/build/turtle_catch_em_all/build/lib/turtle_catch_em_all
+[1.685s] copying turtle_catch_em_all/__init__.py -> /home/ash/turtle_bot_chaser/build/turtle_catch_em_all/build/lib/turtle_catch_em_all
+[1.685s] copying turtle_catch_em_all/turtle_monitor.py -> /home/ash/turtle_bot_chaser/build/turtle_catch_em_all/build/lib/turtle_catch_em_all
+[1.686s] running install
+[1.690s] running install_lib
+[1.702s] creating /home/ash/turtle_bot_chaser/install/turtle_catch_em_all/lib/python3.12/site-packages/turtle_catch_em_all
+[1.703s] copying /home/ash/turtle_bot_chaser/build/turtle_catch_em_all/build/lib/turtle_catch_em_all/turtle_controller.py -> /home/ash/turtle_bot_chaser/install/turtle_catch_em_all/lib/python3.12/site-packages/turtle_catch_em_all
+[1.703s] copying /home/ash/turtle_bot_chaser/build/turtle_catch_em_all/build/lib/turtle_catch_em_all/turtle_spawner.py -> /home/ash/turtle_bot_chaser/install/turtle_catch_em_all/lib/python3.12/site-packages/turtle_catch_em_all
+[1.703s] copying /home/ash/turtle_bot_chaser/build/turtle_catch_em_all/build/lib/turtle_catch_em_all/__init__.py -> /home/ash/turtle_bot_chaser/install/turtle_catch_em_all/lib/python3.12/site-packages/turtle_catch_em_all
+[1.703s] copying /home/ash/turtle_bot_chaser/build/turtle_catch_em_all/build/lib/turtle_catch_em_all/turtle_monitor.py -> /home/ash/turtle_bot_chaser/install/turtle_catch_em_all/lib/python3.12/site-packages/turtle_catch_em_all
+[1.704s] byte-compiling /home/ash/turtle_bot_chaser/install/turtle_catch_em_all/lib/python3.12/site-packages/turtle_catch_em_all/turtle_controller.py to turtle_controller.cpython-312.pyc
+[1.705s] byte-compiling /home/ash/turtle_bot_chaser/install/turtle_catch_em_all/lib/python3.12/site-packages/turtle_catch_em_all/turtle_spawner.py to turtle_spawner.cpython-312.pyc
+[1.707s] byte-compiling /home/ash/turtle_bot_chaser/install/turtle_catch_em_all/lib/python3.12/site-packages/turtle_catch_em_all/__init__.py to __init__.cpython-312.pyc
+[1.707s] byte-compiling /home/ash/turtle_bot_chaser/install/turtle_catch_em_all/lib/python3.12/site-packages/turtle_catch_em_all/turtle_monitor.py to turtle_monitor.cpython-312.pyc
+[1.708s] running install_data
+[1.708s] creating /home/ash/turtle_bot_chaser/install/turtle_catch_em_all/share/ament_index
+[1.708s] creating /home/ash/turtle_bot_chaser/install/turtle_catch_em_all/share/ament_index/resource_index
+[1.709s] creating /home/ash/turtle_bot_chaser/install/turtle_catch_em_all/share/ament_index/resource_index/packages
+[1.709s] copying resource/turtle_catch_em_all -> /home/ash/turtle_bot_chaser/install/turtle_catch_em_all/share/ament_index/resource_index/packages
+[1.709s] copying package.xml -> /home/ash/turtle_bot_chaser/install/turtle_catch_em_all/share/turtle_catch_em_all
+[1.709s] running install_egg_info
+[1.722s] Copying ../../build/turtle_catch_em_all/turtle_catch_em_all.egg-info to /home/ash/turtle_bot_chaser/install/turtle_catch_em_all/lib/python3.12/site-packages/turtle_catch_em_all-0.0.0-py3.12.egg-info
+[1.724s] running install_scripts
+[1.825s] Installing turtle_controller script to /home/ash/turtle_bot_chaser/install/turtle_catch_em_all/lib/turtle_catch_em_all
+[1.825s] Installing turtle_monitor script to /home/ash/turtle_bot_chaser/install/turtle_catch_em_all/lib/turtle_catch_em_all
+[1.825s] Installing turtle_spawner script to /home/ash/turtle_bot_chaser/install/turtle_catch_em_all/lib/turtle_catch_em_all
+[1.826s] writing list of installed files to '/home/ash/turtle_bot_chaser/build/turtle_catch_em_all/install.log'
+[1.861s] Invoked command in '/home/ash/turtle_bot_chaser/src/turtle_catch_em_all' returned '0': AMENT_PREFIX_PATH=/home/ash/turtle_bot_chaser/install/interfaces:${AMENT_PREFIX_PATH} CMAKE_PREFIX_PATH=/home/ash/turtle_bot_chaser/install/interfaces:${CMAKE_PREFIX_PATH} DEBUGINFOD_URLS=https://debuginfod.ubuntu.com LD_LIBRARY_PATH=/home/ash/turtle_bot_chaser/install/interfaces/lib:${LD_LIBRARY_PATH} PYTHONPATH=/home/ash/turtle_bot_chaser/build/turtle_catch_em_all/prefix_override:/usr/lib/python3/dist-packages/colcon_core/task/python/colcon_distutils_commands:/home/ash/turtle_bot_chaser/install/turtle_catch_em_all/lib/python3.12/site-packages:/home/ash/turtle_bot_chaser/install/interfaces/lib/python3.12/site-packages:${PYTHONPATH} /usr/bin/python3 -W ignore:setup.py install is deprecated -W ignore:easy_install command is deprecated setup.py egg_info --egg-base ../../build/turtle_catch_em_all build --build-base /home/ash/turtle_bot_chaser/build/turtle_catch_em_all/build install --record /home/ash/turtle_bot_chaser/build/turtle_catch_em_all/install.log --single-version-externally-managed install_data

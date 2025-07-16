@@ -1,0 +1,14 @@
+{
+  "package_name": "interfaces",
+  "output_dir": "/home/ash/turtle_bot_chaser/build/interfaces/rosidl_generator_type_description/interfaces",
+  "idl_tuples": [
+    "/home/ash/turtle_bot_chaser/build/interfaces/rosidl_adapter/interfaces:msg/Turtle.idl",
+    "/home/ash/turtle_bot_chaser/build/interfaces/rosidl_adapter/interfaces:msg/TurtleArray.idl",
+    "/home/ash/turtle_bot_chaser/build/interfaces/rosidl_adapter/interfaces:srv/CatchTurtle.idl",
+    "/home/ash/turtle_bot_chaser/build/interfaces/rosidl_adapter/interfaces:srv/CreateChasers.idl"
+  ],
+  "include_paths": [
+    "service_msgs:/opt/ros/jazzy/share/service_msgs",
+    "builtin_interfaces:/opt/ros/jazzy/share/builtin_interfaces"
+  ]
+}

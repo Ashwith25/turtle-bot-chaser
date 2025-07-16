@@ -1,0 +1,14 @@
+{
+	"backtraceGraph" : 
+	{
+		"commands" : [],
+		"files" : [],
+		"nodes" : []
+	},
+	"installers" : [],
+	"paths" : 
+	{
+		"build" : "turtle_interfaces__py",
+		"source" : "/home/ash/turtle_bot_chaser/build/turtle_interfaces/turtle_interfaces__py"
+	}
+}

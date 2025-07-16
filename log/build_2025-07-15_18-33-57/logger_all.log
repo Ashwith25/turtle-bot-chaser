@@ -1,0 +1,269 @@
+[0.092s] DEBUG:colcon:Command line arguments: ['/usr/bin/colcon', 'build']
+[0.092s] DEBUG:colcon:Parsed command line arguments: Namespace(log_base=None, log_level=None, verb_name='build', build_base='build', install_base='install', merge_install=False, symlink_install=False, test_result_base=None, continue_on_error=False, executor='parallel', parallel_workers=7, event_handlers=None, ignore_user_meta=False, metas=['./colcon.meta'], base_paths=['.'], packages_ignore=None, packages_ignore_regex=None, paths=None, packages_up_to=None, packages_up_to_regex=None, packages_above=None, packages_above_and_dependencies=None, packages_above_depth=None, packages_select_by_dep=None, packages_skip_by_dep=None, packages_skip_up_to=None, packages_select_build_failed=False, packages_skip_build_finished=False, packages_select_test_failures=False, packages_skip_test_passed=False, packages_select=None, packages_skip=None, packages_select_regex=None, packages_skip_regex=None, packages_start=None, packages_end=None, allow_overriding=[], cmake_args=None, cmake_target=None, cmake_target_skip_unavailable=False, cmake_clean_cache=False, cmake_clean_first=False, cmake_force_configure=False, ament_cmake_args=None, catkin_cmake_args=None, catkin_skip_building_tests=False, mixin_files=None, mixin=None, verb_parser=<colcon_mixin.mixin.mixin_argument.MixinArgumentDecorator object at 0x77816bba09b0>, verb_extension=<colcon_core.verb.build.BuildVerb object at 0x77816bcaa6c0>, main=<bound method BuildVerb.main of <colcon_core.verb.build.BuildVerb object at 0x77816bcaa6c0>>, mixin_verb=('build',))
+[0.129s] Level 1:colcon.colcon_core.package_discovery:discover_packages(colcon_meta) check parameters
+[0.129s] Level 1:colcon.colcon_core.package_discovery:discover_packages(recursive) check parameters
+[0.129s] Level 1:colcon.colcon_core.package_discovery:discover_packages(ignore) check parameters
+[0.129s] Level 1:colcon.colcon_core.package_discovery:discover_packages(path) check parameters
+[0.129s] Level 1:colcon.colcon_core.package_discovery:discover_packages(colcon_meta) discover
+[0.129s] Level 1:colcon.colcon_core.package_discovery:discover_packages(recursive) discover
+[0.129s] INFO:colcon.colcon_core.package_discovery:Crawling recursively for packages in '/home/ash/turtle_bot_chaser'
+[0.129s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extensions ['ignore', 'ignore_ament_install']
+[0.130s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extension 'ignore'
+[0.130s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extension 'ignore_ament_install'
+[0.130s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extensions ['colcon_pkg']
+[0.130s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extension 'colcon_pkg'
+[0.130s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extensions ['colcon_meta']
+[0.130s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extension 'colcon_meta'
+[0.130s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extensions ['ros']
+[0.130s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extension 'ros'
+[0.154s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extensions ['cmake', 'python']
+[0.154s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extension 'cmake'
+[0.154s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extension 'python'
+[0.154s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extensions ['python_setup_py']
+[0.154s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extension 'python_setup_py'
+[0.154s] Level 1:colcon.colcon_core.package_identification:_identify(build) by extensions ['ignore', 'ignore_ament_install']
+[0.155s] Level 1:colcon.colcon_core.package_identification:_identify(build) by extension 'ignore'
+[0.155s] Level 1:colcon.colcon_core.package_identification:_identify(build) ignored
+[0.155s] Level 1:colcon.colcon_core.package_identification:_identify(install) by extensions ['ignore', 'ignore_ament_install']
+[0.155s] Level 1:colcon.colcon_core.package_identification:_identify(install) by extension 'ignore'
+[0.155s] Level 1:colcon.colcon_core.package_identification:_identify(install) ignored
+[0.155s] Level 1:colcon.colcon_core.package_identification:_identify(log) by extensions ['ignore', 'ignore_ament_install']
+[0.155s] Level 1:colcon.colcon_core.package_identification:_identify(log) by extension 'ignore'
+[0.155s] Level 1:colcon.colcon_core.package_identification:_identify(log) ignored
+[0.155s] Level 1:colcon.colcon_core.package_identification:_identify(src) by extensions ['ignore', 'ignore_ament_install']
+[0.155s] Level 1:colcon.colcon_core.package_identification:_identify(src) by extension 'ignore'
+[0.155s] Level 1:colcon.colcon_core.package_identification:_identify(src) by extension 'ignore_ament_install'
+[0.155s] Level 1:colcon.colcon_core.package_identification:_identify(src) by extensions ['colcon_pkg']
+[0.155s] Level 1:colcon.colcon_core.package_identification:_identify(src) by extension 'colcon_pkg'
+[0.155s] Level 1:colcon.colcon_core.package_identification:_identify(src) by extensions ['colcon_meta']
+[0.155s] Level 1:colcon.colcon_core.package_identification:_identify(src) by extension 'colcon_meta'
+[0.155s] Level 1:colcon.colcon_core.package_identification:_identify(src) by extensions ['ros']
+[0.155s] Level 1:colcon.colcon_core.package_identification:_identify(src) by extension 'ros'
+[0.155s] Level 1:colcon.colcon_core.package_identification:_identify(src) by extensions ['cmake', 'python']
+[0.155s] Level 1:colcon.colcon_core.package_identification:_identify(src) by extension 'cmake'
+[0.155s] Level 1:colcon.colcon_core.package_identification:_identify(src) by extension 'python'
+[0.155s] Level 1:colcon.colcon_core.package_identification:_identify(src) by extensions ['python_setup_py']
+[0.155s] Level 1:colcon.colcon_core.package_identification:_identify(src) by extension 'python_setup_py'
+[0.155s] Level 1:colcon.colcon_core.package_identification:_identify(src/turtle_bringup) by extensions ['ignore', 'ignore_ament_install']
+[0.155s] Level 1:colcon.colcon_core.package_identification:_identify(src/turtle_bringup) by extension 'ignore'
+[0.155s] Level 1:colcon.colcon_core.package_identification:_identify(src/turtle_bringup) by extension 'ignore_ament_install'
+[0.155s] Level 1:colcon.colcon_core.package_identification:_identify(src/turtle_bringup) by extensions ['colcon_pkg']
+[0.155s] Level 1:colcon.colcon_core.package_identification:_identify(src/turtle_bringup) by extension 'colcon_pkg'
+[0.155s] Level 1:colcon.colcon_core.package_identification:_identify(src/turtle_bringup) by extensions ['colcon_meta']
+[0.156s] Level 1:colcon.colcon_core.package_identification:_identify(src/turtle_bringup) by extension 'colcon_meta'
+[0.156s] Level 1:colcon.colcon_core.package_identification:_identify(src/turtle_bringup) by extensions ['ros']
+[0.156s] Level 1:colcon.colcon_core.package_identification:_identify(src/turtle_bringup) by extension 'ros'
+[0.157s] DEBUG:colcon.colcon_core.package_identification:Package 'src/turtle_bringup' with type 'ros.ament_cmake' and name 'turtle_bringup'
+[0.157s] Level 1:colcon.colcon_core.package_identification:_identify(src/turtle_catch_em_all) by extensions ['ignore', 'ignore_ament_install']
+[0.157s] Level 1:colcon.colcon_core.package_identification:_identify(src/turtle_catch_em_all) by extension 'ignore'
+[0.158s] Level 1:colcon.colcon_core.package_identification:_identify(src/turtle_catch_em_all) by extension 'ignore_ament_install'
+[0.158s] Level 1:colcon.colcon_core.package_identification:_identify(src/turtle_catch_em_all) by extensions ['colcon_pkg']
+[0.158s] Level 1:colcon.colcon_core.package_identification:_identify(src/turtle_catch_em_all) by extension 'colcon_pkg'
+[0.158s] Level 1:colcon.colcon_core.package_identification:_identify(src/turtle_catch_em_all) by extensions ['colcon_meta']
+[0.158s] Level 1:colcon.colcon_core.package_identification:_identify(src/turtle_catch_em_all) by extension 'colcon_meta'
+[0.158s] Level 1:colcon.colcon_core.package_identification:_identify(src/turtle_catch_em_all) by extensions ['ros']
+[0.158s] Level 1:colcon.colcon_core.package_identification:_identify(src/turtle_catch_em_all) by extension 'ros'
+[0.158s] DEBUG:colcon.colcon_core.package_identification:Package 'src/turtle_catch_em_all' with type 'ros.ament_python' and name 'turtle_catch_em_all'
+[0.158s] Level 1:colcon.colcon_core.package_identification:_identify(src/turtle_interfaces) by extensions ['ignore', 'ignore_ament_install']
+[0.158s] Level 1:colcon.colcon_core.package_identification:_identify(src/turtle_interfaces) by extension 'ignore'
+[0.158s] Level 1:colcon.colcon_core.package_identification:_identify(src/turtle_interfaces) by extension 'ignore_ament_install'
+[0.158s] Level 1:colcon.colcon_core.package_identification:_identify(src/turtle_interfaces) by extensions ['colcon_pkg']
+[0.159s] Level 1:colcon.colcon_core.package_identification:_identify(src/turtle_interfaces) by extension 'colcon_pkg'
+[0.159s] Level 1:colcon.colcon_core.package_identification:_identify(src/turtle_interfaces) by extensions ['colcon_meta']
+[0.159s] Level 1:colcon.colcon_core.package_identification:_identify(src/turtle_interfaces) by extension 'colcon_meta'
+[0.159s] Level 1:colcon.colcon_core.package_identification:_identify(src/turtle_interfaces) by extensions ['ros']
+[0.159s] Level 1:colcon.colcon_core.package_identification:_identify(src/turtle_interfaces) by extension 'ros'
+[0.159s] DEBUG:colcon.colcon_core.package_identification:Package 'src/turtle_interfaces' with type 'ros.ament_cmake' and name 'turtle_interfaces'
+[0.159s] Level 1:colcon.colcon_core.package_discovery:discover_packages(recursive) using defaults
+[0.159s] Level 1:colcon.colcon_core.package_discovery:discover_packages(ignore) discover
+[0.159s] Level 1:colcon.colcon_core.package_discovery:discover_packages(ignore) using defaults
+[0.159s] Level 1:colcon.colcon_core.package_discovery:discover_packages(path) discover
+[0.159s] Level 1:colcon.colcon_core.package_discovery:discover_packages(path) using defaults
+[0.175s] Level 1:colcon.colcon_core.package_discovery:discover_packages(prefix_path) check parameters
+[0.175s] Level 1:colcon.colcon_core.package_discovery:discover_packages(prefix_path) discover
+[0.177s] DEBUG:colcon.colcon_installed_package_information.package_discovery:Found 6 installed packages in /home/ash/ros2_ws/install
+[0.178s] DEBUG:colcon.colcon_installed_package_information.package_discovery:Found 285 installed packages in /opt/ros/jazzy
+[0.179s] Level 1:colcon.colcon_core.package_discovery:discover_packages(prefix_path) using defaults
+[0.214s] Level 5:colcon.colcon_core.verb:set package 'turtle_interfaces' build argument 'cmake_args' from command line to 'None'
+[0.214s] Level 5:colcon.colcon_core.verb:set package 'turtle_interfaces' build argument 'cmake_target' from command line to 'None'
+[0.214s] Level 5:colcon.colcon_core.verb:set package 'turtle_interfaces' build argument 'cmake_target_skip_unavailable' from command line to 'False'
+[0.214s] Level 5:colcon.colcon_core.verb:set package 'turtle_interfaces' build argument 'cmake_clean_cache' from command line to 'False'
+[0.214s] Level 5:colcon.colcon_core.verb:set package 'turtle_interfaces' build argument 'cmake_clean_first' from command line to 'False'
+[0.214s] Level 5:colcon.colcon_core.verb:set package 'turtle_interfaces' build argument 'cmake_force_configure' from command line to 'False'
+[0.214s] Level 5:colcon.colcon_core.verb:set package 'turtle_interfaces' build argument 'ament_cmake_args' from command line to 'None'
+[0.214s] Level 5:colcon.colcon_core.verb:set package 'turtle_interfaces' build argument 'catkin_cmake_args' from command line to 'None'
+[0.214s] Level 5:colcon.colcon_core.verb:set package 'turtle_interfaces' build argument 'catkin_skip_building_tests' from command line to 'False'
+[0.214s] DEBUG:colcon.colcon_core.verb:Building package 'turtle_interfaces' with the following arguments: {'ament_cmake_args': None, 'build_base': '/home/ash/turtle_bot_chaser/build/turtle_interfaces', 'catkin_cmake_args': None, 'catkin_skip_building_tests': False, 'cmake_args': None, 'cmake_clean_cache': False, 'cmake_clean_first': False, 'cmake_force_configure': False, 'cmake_target': None, 'cmake_target_skip_unavailable': False, 'install_base': '/home/ash/turtle_bot_chaser/install/turtle_interfaces', 'merge_install': False, 'path': '/home/ash/turtle_bot_chaser/src/turtle_interfaces', 'symlink_install': False, 'test_result_base': None}
+[0.214s] Level 5:colcon.colcon_core.verb:set package 'turtle_catch_em_all' build argument 'cmake_args' from command line to 'None'
+[0.214s] Level 5:colcon.colcon_core.verb:set package 'turtle_catch_em_all' build argument 'cmake_target' from command line to 'None'
+[0.214s] Level 5:colcon.colcon_core.verb:set package 'turtle_catch_em_all' build argument 'cmake_target_skip_unavailable' from command line to 'False'
+[0.214s] Level 5:colcon.colcon_core.verb:set package 'turtle_catch_em_all' build argument 'cmake_clean_cache' from command line to 'False'
+[0.214s] Level 5:colcon.colcon_core.verb:set package 'turtle_catch_em_all' build argument 'cmake_clean_first' from command line to 'False'
+[0.214s] Level 5:colcon.colcon_core.verb:set package 'turtle_catch_em_all' build argument 'cmake_force_configure' from command line to 'False'
+[0.214s] Level 5:colcon.colcon_core.verb:set package 'turtle_catch_em_all' build argument 'ament_cmake_args' from command line to 'None'
+[0.214s] Level 5:colcon.colcon_core.verb:set package 'turtle_catch_em_all' build argument 'catkin_cmake_args' from command line to 'None'
+[0.214s] Level 5:colcon.colcon_core.verb:set package 'turtle_catch_em_all' build argument 'catkin_skip_building_tests' from command line to 'False'
+[0.215s] DEBUG:colcon.colcon_core.verb:Building package 'turtle_catch_em_all' with the following arguments: {'ament_cmake_args': None, 'build_base': '/home/ash/turtle_bot_chaser/build/turtle_catch_em_all', 'catkin_cmake_args': None, 'catkin_skip_building_tests': False, 'cmake_args': None, 'cmake_clean_cache': False, 'cmake_clean_first': False, 'cmake_force_configure': False, 'cmake_target': None, 'cmake_target_skip_unavailable': False, 'install_base': '/home/ash/turtle_bot_chaser/install/turtle_catch_em_all', 'merge_install': False, 'path': '/home/ash/turtle_bot_chaser/src/turtle_catch_em_all', 'symlink_install': False, 'test_result_base': None}
+[0.215s] Level 5:colcon.colcon_core.verb:set package 'turtle_bringup' build argument 'cmake_args' from command line to 'None'
+[0.215s] Level 5:colcon.colcon_core.verb:set package 'turtle_bringup' build argument 'cmake_target' from command line to 'None'
+[0.215s] Level 5:colcon.colcon_core.verb:set package 'turtle_bringup' build argument 'cmake_target_skip_unavailable' from command line to 'False'
+[0.215s] Level 5:colcon.colcon_core.verb:set package 'turtle_bringup' build argument 'cmake_clean_cache' from command line to 'False'
+[0.215s] Level 5:colcon.colcon_core.verb:set package 'turtle_bringup' build argument 'cmake_clean_first' from command line to 'False'
+[0.215s] Level 5:colcon.colcon_core.verb:set package 'turtle_bringup' build argument 'cmake_force_configure' from command line to 'False'
+[0.215s] Level 5:colcon.colcon_core.verb:set package 'turtle_bringup' build argument 'ament_cmake_args' from command line to 'None'
+[0.215s] Level 5:colcon.colcon_core.verb:set package 'turtle_bringup' build argument 'catkin_cmake_args' from command line to 'None'
+[0.215s] Level 5:colcon.colcon_core.verb:set package 'turtle_bringup' build argument 'catkin_skip_building_tests' from command line to 'False'
+[0.215s] DEBUG:colcon.colcon_core.verb:Building package 'turtle_bringup' with the following arguments: {'ament_cmake_args': None, 'build_base': '/home/ash/turtle_bot_chaser/build/turtle_bringup', 'catkin_cmake_args': None, 'catkin_skip_building_tests': False, 'cmake_args': None, 'cmake_clean_cache': False, 'cmake_clean_first': False, 'cmake_force_configure': False, 'cmake_target': None, 'cmake_target_skip_unavailable': False, 'install_base': '/home/ash/turtle_bot_chaser/install/turtle_bringup', 'merge_install': False, 'path': '/home/ash/turtle_bot_chaser/src/turtle_bringup', 'symlink_install': False, 'test_result_base': None}
+[0.215s] INFO:colcon.colcon_core.executor:Executing jobs using 'parallel' executor
+[0.216s] DEBUG:colcon.colcon_parallel_executor.executor.parallel:run_until_complete
+[0.217s] INFO:colcon.colcon_ros.task.ament_cmake.build:Building ROS package in '/home/ash/turtle_bot_chaser/src/turtle_interfaces' with build type 'ament_cmake'
+[0.217s] INFO:colcon.colcon_cmake.task.cmake.build:Building CMake package in '/home/ash/turtle_bot_chaser/src/turtle_interfaces'
+[0.220s] INFO:colcon.colcon_core.plugin_system:Skipping extension 'colcon_core.shell.bat': Not used on non-Windows systems
+[0.220s] INFO:colcon.colcon_core.shell:Skip shell extension 'powershell' for command environment: Not usable outside of PowerShell
+[0.220s] DEBUG:colcon.colcon_core.shell:Skip shell extension 'dsv' for command environment
+[0.237s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoking command in '/home/ash/turtle_bot_chaser/build/turtle_interfaces': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/ash/ros2_ws/install/project:/home/ash/ros2_ws/install/my_py_pkg:/home/ash/ros2_ws/install/activity4:/home/ash/ros2_ws/install/activity2:/opt/ros/jazzy DEBUGINFOD_URLS=https://debuginfod.ubuntu.com /usr/bin/cmake --build /home/ash/turtle_bot_chaser/build/turtle_interfaces -- -j7 -l7
+[0.691s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoked command in '/home/ash/turtle_bot_chaser/build/turtle_interfaces' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/ash/ros2_ws/install/project:/home/ash/ros2_ws/install/my_py_pkg:/home/ash/ros2_ws/install/activity4:/home/ash/ros2_ws/install/activity2:/opt/ros/jazzy DEBUGINFOD_URLS=https://debuginfod.ubuntu.com /usr/bin/cmake --build /home/ash/turtle_bot_chaser/build/turtle_interfaces -- -j7 -l7
+[0.707s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoking command in '/home/ash/turtle_bot_chaser/build/turtle_interfaces': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/ash/ros2_ws/install/project:/home/ash/ros2_ws/install/my_py_pkg:/home/ash/ros2_ws/install/activity4:/home/ash/ros2_ws/install/activity2:/opt/ros/jazzy DEBUGINFOD_URLS=https://debuginfod.ubuntu.com /usr/bin/cmake --install /home/ash/turtle_bot_chaser/build/turtle_interfaces
+[0.790s] Level 1:colcon.colcon_core.environment:create_environment_scripts_only(turtle_interfaces)
+[0.790s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoked command in '/home/ash/turtle_bot_chaser/build/turtle_interfaces' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/ash/ros2_ws/install/project:/home/ash/ros2_ws/install/my_py_pkg:/home/ash/ros2_ws/install/activity4:/home/ash/ros2_ws/install/activity2:/opt/ros/jazzy DEBUGINFOD_URLS=https://debuginfod.ubuntu.com /usr/bin/cmake --install /home/ash/turtle_bot_chaser/build/turtle_interfaces
+[0.793s] Level 1:colcon.colcon_core.environment:checking '/home/ash/turtle_bot_chaser/install/turtle_interfaces' for CMake module files
+[0.794s] Level 1:colcon.colcon_core.environment:checking '/home/ash/turtle_bot_chaser/install/turtle_interfaces' for CMake config files
+[0.794s] Level 1:colcon.colcon_core.shell:create_environment_hook('turtle_interfaces', 'cmake_prefix_path')
+[0.794s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/ash/turtle_bot_chaser/install/turtle_interfaces/share/turtle_interfaces/hook/cmake_prefix_path.ps1'
+[0.795s] INFO:colcon.colcon_core.shell:Creating environment descriptor '/home/ash/turtle_bot_chaser/install/turtle_interfaces/share/turtle_interfaces/hook/cmake_prefix_path.dsv'
+[0.795s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/ash/turtle_bot_chaser/install/turtle_interfaces/share/turtle_interfaces/hook/cmake_prefix_path.sh'
+[0.796s] Level 1:colcon.colcon_core.environment:checking '/home/ash/turtle_bot_chaser/install/turtle_interfaces/lib'
+[0.797s] Level 1:colcon.colcon_core.shell:create_environment_hook('turtle_interfaces', 'ld_library_path_lib')
+[0.797s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/ash/turtle_bot_chaser/install/turtle_interfaces/share/turtle_interfaces/hook/ld_library_path_lib.ps1'
+[0.797s] INFO:colcon.colcon_core.shell:Creating environment descriptor '/home/ash/turtle_bot_chaser/install/turtle_interfaces/share/turtle_interfaces/hook/ld_library_path_lib.dsv'
+[0.798s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/ash/turtle_bot_chaser/install/turtle_interfaces/share/turtle_interfaces/hook/ld_library_path_lib.sh'
+[0.798s] Level 1:colcon.colcon_core.environment:checking '/home/ash/turtle_bot_chaser/install/turtle_interfaces/bin'
+[0.798s] Level 1:colcon.colcon_core.environment:checking '/home/ash/turtle_bot_chaser/install/turtle_interfaces/lib/pkgconfig/turtle_interfaces.pc'
+[0.798s] Level 1:colcon.colcon_core.environment:checking '/home/ash/turtle_bot_chaser/install/turtle_interfaces/lib/python3.12/site-packages'
+[0.798s] Level 1:colcon.colcon_core.shell:create_environment_hook('turtle_interfaces', 'pythonpath')
+[0.799s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/ash/turtle_bot_chaser/install/turtle_interfaces/share/turtle_interfaces/hook/pythonpath.ps1'
+[0.799s] INFO:colcon.colcon_core.shell:Creating environment descriptor '/home/ash/turtle_bot_chaser/install/turtle_interfaces/share/turtle_interfaces/hook/pythonpath.dsv'
+[0.799s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/ash/turtle_bot_chaser/install/turtle_interfaces/share/turtle_interfaces/hook/pythonpath.sh'
+[0.800s] Level 1:colcon.colcon_core.environment:checking '/home/ash/turtle_bot_chaser/install/turtle_interfaces/bin'
+[0.800s] INFO:colcon.colcon_core.shell:Creating package script '/home/ash/turtle_bot_chaser/install/turtle_interfaces/share/turtle_interfaces/package.ps1'
+[0.801s] INFO:colcon.colcon_core.shell:Creating package descriptor '/home/ash/turtle_bot_chaser/install/turtle_interfaces/share/turtle_interfaces/package.dsv'
+[0.801s] INFO:colcon.colcon_core.shell:Creating package script '/home/ash/turtle_bot_chaser/install/turtle_interfaces/share/turtle_interfaces/package.sh'
+[0.802s] INFO:colcon.colcon_core.shell:Creating package script '/home/ash/turtle_bot_chaser/install/turtle_interfaces/share/turtle_interfaces/package.bash'
+[0.803s] INFO:colcon.colcon_core.shell:Creating package script '/home/ash/turtle_bot_chaser/install/turtle_interfaces/share/turtle_interfaces/package.zsh'
+[0.803s] Level 1:colcon.colcon_core.environment:create_file_with_runtime_dependencies(/home/ash/turtle_bot_chaser/install/turtle_interfaces/share/colcon-core/packages/turtle_interfaces)
+[0.804s] Level 1:colcon.colcon_core.environment:create_environment_scripts_only(turtle_interfaces)
+[0.804s] Level 1:colcon.colcon_core.environment:checking '/home/ash/turtle_bot_chaser/install/turtle_interfaces' for CMake module files
+[0.804s] Level 1:colcon.colcon_core.environment:checking '/home/ash/turtle_bot_chaser/install/turtle_interfaces' for CMake config files
+[0.805s] Level 1:colcon.colcon_core.shell:create_environment_hook('turtle_interfaces', 'cmake_prefix_path')
+[0.805s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/ash/turtle_bot_chaser/install/turtle_interfaces/share/turtle_interfaces/hook/cmake_prefix_path.ps1'
+[0.805s] INFO:colcon.colcon_core.shell:Creating environment descriptor '/home/ash/turtle_bot_chaser/install/turtle_interfaces/share/turtle_interfaces/hook/cmake_prefix_path.dsv'
+[0.805s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/ash/turtle_bot_chaser/install/turtle_interfaces/share/turtle_interfaces/hook/cmake_prefix_path.sh'
+[0.806s] Level 1:colcon.colcon_core.environment:checking '/home/ash/turtle_bot_chaser/install/turtle_interfaces/lib'
+[0.806s] Level 1:colcon.colcon_core.shell:create_environment_hook('turtle_interfaces', 'ld_library_path_lib')
+[0.806s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/ash/turtle_bot_chaser/install/turtle_interfaces/share/turtle_interfaces/hook/ld_library_path_lib.ps1'
+[0.807s] INFO:colcon.colcon_core.shell:Creating environment descriptor '/home/ash/turtle_bot_chaser/install/turtle_interfaces/share/turtle_interfaces/hook/ld_library_path_lib.dsv'
+[0.807s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/ash/turtle_bot_chaser/install/turtle_interfaces/share/turtle_interfaces/hook/ld_library_path_lib.sh'
+[0.807s] Level 1:colcon.colcon_core.environment:checking '/home/ash/turtle_bot_chaser/install/turtle_interfaces/bin'
+[0.807s] Level 1:colcon.colcon_core.environment:checking '/home/ash/turtle_bot_chaser/install/turtle_interfaces/lib/pkgconfig/turtle_interfaces.pc'
+[0.808s] Level 1:colcon.colcon_core.environment:checking '/home/ash/turtle_bot_chaser/install/turtle_interfaces/lib/python3.12/site-packages'
+[0.808s] Level 1:colcon.colcon_core.shell:create_environment_hook('turtle_interfaces', 'pythonpath')
+[0.808s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/ash/turtle_bot_chaser/install/turtle_interfaces/share/turtle_interfaces/hook/pythonpath.ps1'
+[0.808s] INFO:colcon.colcon_core.shell:Creating environment descriptor '/home/ash/turtle_bot_chaser/install/turtle_interfaces/share/turtle_interfaces/hook/pythonpath.dsv'
+[0.809s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/ash/turtle_bot_chaser/install/turtle_interfaces/share/turtle_interfaces/hook/pythonpath.sh'
+[0.809s] Level 1:colcon.colcon_core.environment:checking '/home/ash/turtle_bot_chaser/install/turtle_interfaces/bin'
+[0.809s] INFO:colcon.colcon_core.shell:Creating package script '/home/ash/turtle_bot_chaser/install/turtle_interfaces/share/turtle_interfaces/package.ps1'
+[0.810s] INFO:colcon.colcon_core.shell:Creating package descriptor '/home/ash/turtle_bot_chaser/install/turtle_interfaces/share/turtle_interfaces/package.dsv'
+[0.810s] INFO:colcon.colcon_core.shell:Creating package script '/home/ash/turtle_bot_chaser/install/turtle_interfaces/share/turtle_interfaces/package.sh'
+[0.811s] INFO:colcon.colcon_core.shell:Creating package script '/home/ash/turtle_bot_chaser/install/turtle_interfaces/share/turtle_interfaces/package.bash'
+[0.811s] INFO:colcon.colcon_core.shell:Creating package script '/home/ash/turtle_bot_chaser/install/turtle_interfaces/share/turtle_interfaces/package.zsh'
+[0.812s] Level 1:colcon.colcon_core.environment:create_file_with_runtime_dependencies(/home/ash/turtle_bot_chaser/install/turtle_interfaces/share/colcon-core/packages/turtle_interfaces)
+[0.812s] INFO:colcon.colcon_ros.task.ament_python.build:Building ROS package in '/home/ash/turtle_bot_chaser/src/turtle_catch_em_all' with build type 'ament_python'
+[0.812s] Level 1:colcon.colcon_core.shell:create_environment_hook('turtle_catch_em_all', 'ament_prefix_path')
+[0.812s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/ash/turtle_bot_chaser/install/turtle_catch_em_all/share/turtle_catch_em_all/hook/ament_prefix_path.ps1'
+[0.814s] INFO:colcon.colcon_core.shell:Creating environment descriptor '/home/ash/turtle_bot_chaser/install/turtle_catch_em_all/share/turtle_catch_em_all/hook/ament_prefix_path.dsv'
+[0.815s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/ash/turtle_bot_chaser/install/turtle_catch_em_all/share/turtle_catch_em_all/hook/ament_prefix_path.sh'
+[0.816s] INFO:colcon.colcon_core.shell:Skip shell extension 'powershell' for command environment: Not usable outside of PowerShell
+[0.816s] DEBUG:colcon.colcon_core.shell:Skip shell extension 'dsv' for command environment
+[0.996s] INFO:colcon.colcon_core.task.python.build:Building Python package in '/home/ash/turtle_bot_chaser/src/turtle_catch_em_all'
+[0.996s] INFO:colcon.colcon_core.shell:Skip shell extension 'powershell' for command environment: Not usable outside of PowerShell
+[0.996s] DEBUG:colcon.colcon_core.shell:Skip shell extension 'dsv' for command environment
+[1.523s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoking command in '/home/ash/turtle_bot_chaser/src/turtle_catch_em_all': AMENT_PREFIX_PATH=/home/ash/turtle_bot_chaser/install/turtle_interfaces:${AMENT_PREFIX_PATH} CMAKE_PREFIX_PATH=/home/ash/turtle_bot_chaser/install/turtle_interfaces:${CMAKE_PREFIX_PATH} DEBUGINFOD_URLS=https://debuginfod.ubuntu.com LD_LIBRARY_PATH=/home/ash/turtle_bot_chaser/install/turtle_interfaces/lib:${LD_LIBRARY_PATH} PYTHONPATH=/home/ash/turtle_bot_chaser/build/turtle_catch_em_all/prefix_override:/usr/lib/python3/dist-packages/colcon_core/task/python/colcon_distutils_commands:/home/ash/turtle_bot_chaser/install/turtle_catch_em_all/lib/python3.12/site-packages:/home/ash/turtle_bot_chaser/install/turtle_interfaces/lib/python3.12/site-packages:${PYTHONPATH} /usr/bin/python3 -W ignore:setup.py install is deprecated -W ignore:easy_install command is deprecated setup.py egg_info --egg-base ../../build/turtle_catch_em_all build --build-base /home/ash/turtle_bot_chaser/build/turtle_catch_em_all/build install --record /home/ash/turtle_bot_chaser/build/turtle_catch_em_all/install.log --single-version-externally-managed install_data
+[1.929s] Level 1:colcon.colcon_core.environment:checking '/home/ash/turtle_bot_chaser/install/turtle_catch_em_all' for CMake module files
+[1.929s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoked command in '/home/ash/turtle_bot_chaser/src/turtle_catch_em_all' returned '0': AMENT_PREFIX_PATH=/home/ash/turtle_bot_chaser/install/turtle_interfaces:${AMENT_PREFIX_PATH} CMAKE_PREFIX_PATH=/home/ash/turtle_bot_chaser/install/turtle_interfaces:${CMAKE_PREFIX_PATH} DEBUGINFOD_URLS=https://debuginfod.ubuntu.com LD_LIBRARY_PATH=/home/ash/turtle_bot_chaser/install/turtle_interfaces/lib:${LD_LIBRARY_PATH} PYTHONPATH=/home/ash/turtle_bot_chaser/build/turtle_catch_em_all/prefix_override:/usr/lib/python3/dist-packages/colcon_core/task/python/colcon_distutils_commands:/home/ash/turtle_bot_chaser/install/turtle_catch_em_all/lib/python3.12/site-packages:/home/ash/turtle_bot_chaser/install/turtle_interfaces/lib/python3.12/site-packages:${PYTHONPATH} /usr/bin/python3 -W ignore:setup.py install is deprecated -W ignore:easy_install command is deprecated setup.py egg_info --egg-base ../../build/turtle_catch_em_all build --build-base /home/ash/turtle_bot_chaser/build/turtle_catch_em_all/build install --record /home/ash/turtle_bot_chaser/build/turtle_catch_em_all/install.log --single-version-externally-managed install_data
+[1.930s] Level 1:colcon.colcon_core.environment:checking '/home/ash/turtle_bot_chaser/install/turtle_catch_em_all' for CMake config files
+[1.931s] Level 1:colcon.colcon_core.environment:checking '/home/ash/turtle_bot_chaser/install/turtle_catch_em_all/lib'
+[1.931s] Level 1:colcon.colcon_core.environment:checking '/home/ash/turtle_bot_chaser/install/turtle_catch_em_all/bin'
+[1.931s] Level 1:colcon.colcon_core.environment:checking '/home/ash/turtle_bot_chaser/install/turtle_catch_em_all/lib/pkgconfig/turtle_catch_em_all.pc'
+[1.931s] Level 1:colcon.colcon_core.environment:checking '/home/ash/turtle_bot_chaser/install/turtle_catch_em_all/lib/python3.12/site-packages'
+[1.931s] Level 1:colcon.colcon_core.shell:create_environment_hook('turtle_catch_em_all', 'pythonpath')
+[1.931s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/ash/turtle_bot_chaser/install/turtle_catch_em_all/share/turtle_catch_em_all/hook/pythonpath.ps1'
+[1.931s] INFO:colcon.colcon_core.shell:Creating environment descriptor '/home/ash/turtle_bot_chaser/install/turtle_catch_em_all/share/turtle_catch_em_all/hook/pythonpath.dsv'
+[1.932s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/ash/turtle_bot_chaser/install/turtle_catch_em_all/share/turtle_catch_em_all/hook/pythonpath.sh'
+[1.933s] Level 1:colcon.colcon_core.environment:checking '/home/ash/turtle_bot_chaser/install/turtle_catch_em_all/bin'
+[1.933s] Level 1:colcon.colcon_core.environment:create_environment_scripts_only(turtle_catch_em_all)
+[1.933s] INFO:colcon.colcon_core.shell:Creating package script '/home/ash/turtle_bot_chaser/install/turtle_catch_em_all/share/turtle_catch_em_all/package.ps1'
+[1.933s] INFO:colcon.colcon_core.shell:Creating package descriptor '/home/ash/turtle_bot_chaser/install/turtle_catch_em_all/share/turtle_catch_em_all/package.dsv'
+[1.934s] INFO:colcon.colcon_core.shell:Creating package script '/home/ash/turtle_bot_chaser/install/turtle_catch_em_all/share/turtle_catch_em_all/package.sh'
+[1.934s] INFO:colcon.colcon_core.shell:Creating package script '/home/ash/turtle_bot_chaser/install/turtle_catch_em_all/share/turtle_catch_em_all/package.bash'
+[1.935s] INFO:colcon.colcon_core.shell:Creating package script '/home/ash/turtle_bot_chaser/install/turtle_catch_em_all/share/turtle_catch_em_all/package.zsh'
+[1.935s] Level 1:colcon.colcon_core.environment:create_file_with_runtime_dependencies(/home/ash/turtle_bot_chaser/install/turtle_catch_em_all/share/colcon-core/packages/turtle_catch_em_all)
+[1.935s] INFO:colcon.colcon_ros.task.ament_cmake.build:Building ROS package in '/home/ash/turtle_bot_chaser/src/turtle_bringup' with build type 'ament_cmake'
+[1.936s] INFO:colcon.colcon_cmake.task.cmake.build:Building CMake package in '/home/ash/turtle_bot_chaser/src/turtle_bringup'
+[1.936s] INFO:colcon.colcon_core.shell:Skip shell extension 'powershell' for command environment: Not usable outside of PowerShell
+[1.936s] DEBUG:colcon.colcon_core.shell:Skip shell extension 'dsv' for command environment
+[1.958s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoking command in '/home/ash/turtle_bot_chaser/build/turtle_bringup': AMENT_PREFIX_PATH=/home/ash/turtle_bot_chaser/install/turtle_catch_em_all:/home/ash/turtle_bot_chaser/install/turtle_interfaces:${AMENT_PREFIX_PATH} CMAKE_PREFIX_PATH=/home/ash/turtle_bot_chaser/install/turtle_interfaces:/home/ash/ros2_ws/install/my_robot_bringup:/home/ash/ros2_ws/install/my_robot_interfaces:/opt/ros/jazzy/opt/gz_math_vendor:/opt/ros/jazzy/opt/gz_utils_vendor:/opt/ros/jazzy/opt/gz_cmake_vendor:/home/ash/ros2_ws/install/project:/home/ash/ros2_ws/install/my_py_pkg:/home/ash/ros2_ws/install/activity4:/home/ash/ros2_ws/install/activity2:/opt/ros/jazzy DEBUGINFOD_URLS=https://debuginfod.ubuntu.com LD_LIBRARY_PATH=/home/ash/turtle_bot_chaser/install/turtle_interfaces/lib:${LD_LIBRARY_PATH} PYTHONPATH=/home/ash/turtle_bot_chaser/install/turtle_catch_em_all/lib/python3.12/site-packages:/home/ash/turtle_bot_chaser/install/turtle_interfaces/lib/python3.12/site-packages:${PYTHONPATH} /usr/bin/cmake --build /home/ash/turtle_bot_chaser/build/turtle_bringup -- -j7 -l7
+[2.023s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoked command in '/home/ash/turtle_bot_chaser/build/turtle_bringup' returned '0': AMENT_PREFIX_PATH=/home/ash/turtle_bot_chaser/install/turtle_catch_em_all:/home/ash/turtle_bot_chaser/install/turtle_interfaces:${AMENT_PREFIX_PATH} CMAKE_PREFIX_PATH=/home/ash/turtle_bot_chaser/install/turtle_interfaces:/home/ash/ros2_ws/install/my_robot_bringup:/home/ash/ros2_ws/install/my_robot_interfaces:/opt/ros/jazzy/opt/gz_math_vendor:/opt/ros/jazzy/opt/gz_utils_vendor:/opt/ros/jazzy/opt/gz_cmake_vendor:/home/ash/ros2_ws/install/project:/home/ash/ros2_ws/install/my_py_pkg:/home/ash/ros2_ws/install/activity4:/home/ash/ros2_ws/install/activity2:/opt/ros/jazzy DEBUGINFOD_URLS=https://debuginfod.ubuntu.com LD_LIBRARY_PATH=/home/ash/turtle_bot_chaser/install/turtle_interfaces/lib:${LD_LIBRARY_PATH} PYTHONPATH=/home/ash/turtle_bot_chaser/install/turtle_catch_em_all/lib/python3.12/site-packages:/home/ash/turtle_bot_chaser/install/turtle_interfaces/lib/python3.12/site-packages:${PYTHONPATH} /usr/bin/cmake --build /home/ash/turtle_bot_chaser/build/turtle_bringup -- -j7 -l7
+[2.025s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoking command in '/home/ash/turtle_bot_chaser/build/turtle_bringup': AMENT_PREFIX_PATH=/home/ash/turtle_bot_chaser/install/turtle_catch_em_all:/home/ash/turtle_bot_chaser/install/turtle_interfaces:${AMENT_PREFIX_PATH} CMAKE_PREFIX_PATH=/home/ash/turtle_bot_chaser/install/turtle_interfaces:/home/ash/ros2_ws/install/my_robot_bringup:/home/ash/ros2_ws/install/my_robot_interfaces:/opt/ros/jazzy/opt/gz_math_vendor:/opt/ros/jazzy/opt/gz_utils_vendor:/opt/ros/jazzy/opt/gz_cmake_vendor:/home/ash/ros2_ws/install/project:/home/ash/ros2_ws/install/my_py_pkg:/home/ash/ros2_ws/install/activity4:/home/ash/ros2_ws/install/activity2:/opt/ros/jazzy DEBUGINFOD_URLS=https://debuginfod.ubuntu.com LD_LIBRARY_PATH=/home/ash/turtle_bot_chaser/install/turtle_interfaces/lib:${LD_LIBRARY_PATH} PYTHONPATH=/home/ash/turtle_bot_chaser/install/turtle_catch_em_all/lib/python3.12/site-packages:/home/ash/turtle_bot_chaser/install/turtle_interfaces/lib/python3.12/site-packages:${PYTHONPATH} /usr/bin/cmake --install /home/ash/turtle_bot_chaser/build/turtle_bringup
+[2.041s] Level 1:colcon.colcon_core.environment:create_environment_scripts_only(turtle_bringup)
+[2.041s] Level 1:colcon.colcon_core.environment:checking '/home/ash/turtle_bot_chaser/install/turtle_bringup' for CMake module files
+[2.042s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoked command in '/home/ash/turtle_bot_chaser/build/turtle_bringup' returned '0': AMENT_PREFIX_PATH=/home/ash/turtle_bot_chaser/install/turtle_catch_em_all:/home/ash/turtle_bot_chaser/install/turtle_interfaces:${AMENT_PREFIX_PATH} CMAKE_PREFIX_PATH=/home/ash/turtle_bot_chaser/install/turtle_interfaces:/home/ash/ros2_ws/install/my_robot_bringup:/home/ash/ros2_ws/install/my_robot_interfaces:/opt/ros/jazzy/opt/gz_math_vendor:/opt/ros/jazzy/opt/gz_utils_vendor:/opt/ros/jazzy/opt/gz_cmake_vendor:/home/ash/ros2_ws/install/project:/home/ash/ros2_ws/install/my_py_pkg:/home/ash/ros2_ws/install/activity4:/home/ash/ros2_ws/install/activity2:/opt/ros/jazzy DEBUGINFOD_URLS=https://debuginfod.ubuntu.com LD_LIBRARY_PATH=/home/ash/turtle_bot_chaser/install/turtle_interfaces/lib:${LD_LIBRARY_PATH} PYTHONPATH=/home/ash/turtle_bot_chaser/install/turtle_catch_em_all/lib/python3.12/site-packages:/home/ash/turtle_bot_chaser/install/turtle_interfaces/lib/python3.12/site-packages:${PYTHONPATH} /usr/bin/cmake --install /home/ash/turtle_bot_chaser/build/turtle_bringup
+[2.042s] Level 1:colcon.colcon_core.environment:checking '/home/ash/turtle_bot_chaser/install/turtle_bringup' for CMake config files
+[2.043s] Level 1:colcon.colcon_core.shell:create_environment_hook('turtle_bringup', 'cmake_prefix_path')
+[2.043s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/ash/turtle_bot_chaser/install/turtle_bringup/share/turtle_bringup/hook/cmake_prefix_path.ps1'
+[2.044s] INFO:colcon.colcon_core.shell:Creating environment descriptor '/home/ash/turtle_bot_chaser/install/turtle_bringup/share/turtle_bringup/hook/cmake_prefix_path.dsv'
+[2.044s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/ash/turtle_bot_chaser/install/turtle_bringup/share/turtle_bringup/hook/cmake_prefix_path.sh'
+[2.045s] Level 1:colcon.colcon_core.environment:checking '/home/ash/turtle_bot_chaser/install/turtle_bringup/bin'
+[2.045s] Level 1:colcon.colcon_core.environment:checking '/home/ash/turtle_bot_chaser/install/turtle_bringup/lib/pkgconfig/turtle_bringup.pc'
+[2.045s] Level 1:colcon.colcon_core.environment:checking '/home/ash/turtle_bot_chaser/install/turtle_bringup/lib/python3.12/site-packages'
+[2.045s] Level 1:colcon.colcon_core.environment:checking '/home/ash/turtle_bot_chaser/install/turtle_bringup/bin'
+[2.045s] INFO:colcon.colcon_core.shell:Creating package script '/home/ash/turtle_bot_chaser/install/turtle_bringup/share/turtle_bringup/package.ps1'
+[2.045s] INFO:colcon.colcon_core.shell:Creating package descriptor '/home/ash/turtle_bot_chaser/install/turtle_bringup/share/turtle_bringup/package.dsv'
+[2.046s] INFO:colcon.colcon_core.shell:Creating package script '/home/ash/turtle_bot_chaser/install/turtle_bringup/share/turtle_bringup/package.sh'
+[2.046s] INFO:colcon.colcon_core.shell:Creating package script '/home/ash/turtle_bot_chaser/install/turtle_bringup/share/turtle_bringup/package.bash'
+[2.047s] INFO:colcon.colcon_core.shell:Creating package script '/home/ash/turtle_bot_chaser/install/turtle_bringup/share/turtle_bringup/package.zsh'
+[2.047s] Level 1:colcon.colcon_core.environment:create_file_with_runtime_dependencies(/home/ash/turtle_bot_chaser/install/turtle_bringup/share/colcon-core/packages/turtle_bringup)
+[2.048s] Level 1:colcon.colcon_core.environment:create_environment_scripts_only(turtle_bringup)
+[2.048s] Level 1:colcon.colcon_core.environment:checking '/home/ash/turtle_bot_chaser/install/turtle_bringup' for CMake module files
+[2.049s] Level 1:colcon.colcon_core.environment:checking '/home/ash/turtle_bot_chaser/install/turtle_bringup' for CMake config files
+[2.049s] Level 1:colcon.colcon_core.shell:create_environment_hook('turtle_bringup', 'cmake_prefix_path')
+[2.050s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/ash/turtle_bot_chaser/install/turtle_bringup/share/turtle_bringup/hook/cmake_prefix_path.ps1'
+[2.050s] INFO:colcon.colcon_core.shell:Creating environment descriptor '/home/ash/turtle_bot_chaser/install/turtle_bringup/share/turtle_bringup/hook/cmake_prefix_path.dsv'
+[2.050s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/ash/turtle_bot_chaser/install/turtle_bringup/share/turtle_bringup/hook/cmake_prefix_path.sh'
+[2.051s] Level 1:colcon.colcon_core.environment:checking '/home/ash/turtle_bot_chaser/install/turtle_bringup/bin'
+[2.051s] Level 1:colcon.colcon_core.environment:checking '/home/ash/turtle_bot_chaser/install/turtle_bringup/lib/pkgconfig/turtle_bringup.pc'
+[2.051s] Level 1:colcon.colcon_core.environment:checking '/home/ash/turtle_bot_chaser/install/turtle_bringup/lib/python3.12/site-packages'
+[2.051s] Level 1:colcon.colcon_core.environment:checking '/home/ash/turtle_bot_chaser/install/turtle_bringup/bin'
+[2.051s] INFO:colcon.colcon_core.shell:Creating package script '/home/ash/turtle_bot_chaser/install/turtle_bringup/share/turtle_bringup/package.ps1'
+[2.052s] INFO:colcon.colcon_core.shell:Creating package descriptor '/home/ash/turtle_bot_chaser/install/turtle_bringup/share/turtle_bringup/package.dsv'
+[2.052s] INFO:colcon.colcon_core.shell:Creating package script '/home/ash/turtle_bot_chaser/install/turtle_bringup/share/turtle_bringup/package.sh'
+[2.053s] INFO:colcon.colcon_core.shell:Creating package script '/home/ash/turtle_bot_chaser/install/turtle_bringup/share/turtle_bringup/package.bash'
+[2.053s] INFO:colcon.colcon_core.shell:Creating package script '/home/ash/turtle_bot_chaser/install/turtle_bringup/share/turtle_bringup/package.zsh'
+[2.053s] Level 1:colcon.colcon_core.environment:create_file_with_runtime_dependencies(/home/ash/turtle_bot_chaser/install/turtle_bringup/share/colcon-core/packages/turtle_bringup)
+[2.054s] DEBUG:colcon.colcon_parallel_executor.executor.parallel:closing loop
+[2.054s] DEBUG:colcon.colcon_parallel_executor.executor.parallel:loop closed
+[2.054s] DEBUG:colcon.colcon_parallel_executor.executor.parallel:run_until_complete finished with '0'
+[2.054s] DEBUG:colcon.colcon_core.event_reactor:joining thread
+[2.065s] INFO:colcon.colcon_core.plugin_system:Skipping extension 'colcon_notification.desktop_notification.terminal_notifier': Not used on non-Darwin systems
+[2.065s] INFO:colcon.colcon_core.plugin_system:Skipping extension 'colcon_notification.desktop_notification.win32': Not used on non-Windows systems
+[2.065s] INFO:colcon.colcon_notification.desktop_notification:Sending desktop notification using 'notify2'
+[2.120s] DEBUG:colcon.colcon_core.event_reactor:joined thread
+[2.120s] INFO:colcon.colcon_core.shell:Creating prefix script '/home/ash/turtle_bot_chaser/install/local_setup.ps1'
+[2.121s] INFO:colcon.colcon_core.shell:Creating prefix util module '/home/ash/turtle_bot_chaser/install/_local_setup_util_ps1.py'
+[2.122s] INFO:colcon.colcon_core.shell:Creating prefix chain script '/home/ash/turtle_bot_chaser/install/setup.ps1'
+[2.123s] INFO:colcon.colcon_core.shell:Creating prefix script '/home/ash/turtle_bot_chaser/install/local_setup.sh'
+[2.124s] INFO:colcon.colcon_core.shell:Creating prefix util module '/home/ash/turtle_bot_chaser/install/_local_setup_util_sh.py'
+[2.125s] INFO:colcon.colcon_core.shell:Creating prefix chain script '/home/ash/turtle_bot_chaser/install/setup.sh'
+[2.126s] INFO:colcon.colcon_core.shell:Creating prefix script '/home/ash/turtle_bot_chaser/install/local_setup.bash'
+[2.126s] INFO:colcon.colcon_core.shell:Creating prefix chain script '/home/ash/turtle_bot_chaser/install/setup.bash'
+[2.127s] INFO:colcon.colcon_core.shell:Creating prefix script '/home/ash/turtle_bot_chaser/install/local_setup.zsh'
+[2.129s] INFO:colcon.colcon_core.shell:Creating prefix chain script '/home/ash/turtle_bot_chaser/install/setup.zsh'
