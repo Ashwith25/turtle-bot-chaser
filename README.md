@@ -28,7 +28,7 @@ The system's architecture includes the following ROS 2 nodes and communication p
     * **Dynamically Creates**: Subscriptions to `/<turtle_name>/pose` and Publishers to `/<turtle_name>/cmd_vel` for spawned turtles.
     * **Publishes**: `/turtle_coordinates` (updated coordinates of spawned turtles for `turtle_controller`).
 * **`/turtle_controller`**:
-    * **Subscribes**: `/<master_turtle_name>/pose` and `turtle_coordinates` (from `turtle_monitor`).
+    * **Subscribes**: `/<master_turtle_name>/pose` and `/turtle_coordinates` (from `turtle_monitor`).
     * **Publishes**: `/<master_turtle_name>/cmd_vel`.
     * **Calls**: `/catch_turtle` (service client to `turtle_spawner`).
     * **Calls**: `/<master_turtle_name>/set_pen` (service client to `turtlesim_node` for pen color changes).
