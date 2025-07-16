@@ -1,5 +1,7 @@
 # Turtlesim "Catch Them All" Project
 
+![demo.gif](https://s14.gifyu.com/images/bKuIo.gif)
+
 This project expands upon the basic Turtlesim simulation in ROS 2, introducing features for dynamic turtle management and control. The goal is to create a multi-turtle environment where "master" turtles actively catch randomly moving "spawned" turtles.
 
 ---
