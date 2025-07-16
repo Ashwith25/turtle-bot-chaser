@@ -16,6 +16,23 @@ The application is structured around several core nodes:
 
 ---
 
+## Configuration Parameters
+
+This project uses parameters that allow you to customize various aspects of the simulation without modifying the code directly. These parameters are defined in a YAML file and loaded via the launch file.
+
+You can modify these parameters in the file:
+`src/turtle_bringup/config/turtle_catch_em_all.yaml`
+
+### Available Parameters:
+
+* **`/turtle_controller`**:
+    * `catch_closest_turtle_first` (boolean): If true, the `turtle_controller` will always target the closest spawned turtle.
+* **`/turtle_spawner`**:
+    * `spawn_frequency` (float): The rate (in Hz) at which new turtles are spawned.
+    * `turtle_name_prefix` (string): A prefix used for naming newly spawned turtles.
+    * `chasers_count` (integer): The number of "master" turtles to be active.
+---
+
 ## Architecture
 
 The system's architecture includes the following ROS 2 nodes and communication patterns:
