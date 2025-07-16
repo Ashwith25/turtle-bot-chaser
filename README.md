@@ -52,17 +52,17 @@ graph TD
     turtle_spawner -- "/alive_turtles" --> turtle_monitor
     turtle_monitor -- "/turtle_coordinates" --> turtle_controller
 
-    turtle_controller -- "topic /<-master_turtle->/cmd_vel" --> turtlesim_node
-    turtlesim_node -- "topic /<-master_turtle->/pose" --> turtle_controller
+    turtle_controller -- "/<-master_turtle->/cmd_vel" --> turtlesim_node
+    turtlesim_node -- "/<-master_turtle->/pose" --> turtle_controller
 
     %% Services
-    turtle_spawner -- "calls /spawn & /kill service" --> turtlesim_node
-    turtle_controller -- "calls /catch_turtle service" --> turtle_spawner
-    turtle_controller -- "calls /<-master_turtle->/set_pen service" --> turtlesim_node
+    turtle_spawner -- "/spawn & /kill service" --> turtlesim_node
+    turtle_controller -- "/catch_turtle service" --> turtle_spawner
+    turtle_controller -- "/<-master_turtle->/set_pen service" --> turtlesim_node
 
     %% Dynamic interactions for spawned turtles (controlled by turtle_monitor)
-    turtle_monitor -- "dynamically subscribes to /<-spawned_turtle->/pose" --> turtlesim_node
-    turtle_monitor -- "dynamically publishes to /<-spawned_turtle->/cmd_vel" --> turtlesim_node
+    turtle_monitor -- "/<-spawned_turtle->/pose" --> turtlesim_node
+    turtle_monitor -- "/<-spawned_turtle->/cmd_vel" --> turtlesim_node
 ```
 
 ## Setup and Running
